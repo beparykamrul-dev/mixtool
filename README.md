@@ -52,7 +52,34 @@ NAME:
 
 USAGE:
    mixtool generate command [command options] [arguments...]
-
+All app Monitoring
+Monitoring
+── dashboards/ 
+│   │   ├── fiber_map
+│   │   ├── subscriber_usage
+│   │   ├── latency_loss
+│   │   └── fiber_trends
+│   └── provisioning/
+│       └── datasources
+├── prometheus/
+│   └── prometheus.yml
+├── snmp_exporter/
+│  
+├── netflow/
+│   └── nfcapd
+├── libreNMS/
+│   
+├── otdr
+│   └── metrics_importer
+├── smokePing
+│   
+├── syslog/
+│   └── syslog-ng
+└── leaflet_map
+      ---long_map
+ai monitoring amd config support 
+alart 
+pppoe=onu=map
 COMMANDS:
    alerts      Generate Prometheus alerts based on the mixins
    rules       Generate Prometheus rules based on the mixins
